@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#search-form, #login-form, #register-form {
+    background-color: #f8f9fa;
+}
+
+.bus-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.bus-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
